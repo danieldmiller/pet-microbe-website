@@ -20,6 +20,10 @@ h3 {
     font-weight: 300;
 }
 
+h1, h2, h3, p {
+    padding: 9px;
+}
+
 #plant-container {
     display: flex;
     justify-content: space-between;
@@ -58,4 +62,32 @@ h3 {
 img {
     max-width:100%;
     z-index: 2;
+}
+
+.gif {
+    margin-bottom: 40px;
+}
+
+.gif p {
+    margin-bottom: 4px;
+}
+
+.gif img {
+    width: 400px;
+}
+
+button {
+    display: block;
+    background-color: #1261A0;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: none;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #054c86;
 }
